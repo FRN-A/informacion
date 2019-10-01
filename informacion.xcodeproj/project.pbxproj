@@ -14,6 +14,9 @@
 		3D332C322343E938001238E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D332C302343E938001238E0 /* LaunchScreen.storyboard */; };
 		3D332C3D2343E939001238E0 /* informacionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D332C3C2343E939001238E0 /* informacionTests.swift */; };
 		3D332C482343E939001238E0 /* informacionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D332C472343E939001238E0 /* informacionUITests.swift */; };
+		3D332C562343EA28001238E0 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D332C552343EA28001238E0 /* Contacto.swift */; };
+		3D332C582343EC3B001238E0 /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D332C572343EC3B001238E0 /* CeldaContactoController.swift */; };
+		3D332C5A2343F741001238E0 /* EditarContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D332C592343F741001238E0 /* EditarContactoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3D332C432343E939001238E0 /* informacionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = informacionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D332C472343E939001238E0 /* informacionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informacionUITests.swift; sourceTree = "<group>"; };
 		3D332C492343E939001238E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D332C552343EA28001238E0 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		3D332C572343EC3B001238E0 /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
+		3D332C592343F741001238E0 /* EditarContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarContactoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				3D332C2E2343E938001238E0 /* Assets.xcassets */,
 				3D332C302343E938001238E0 /* LaunchScreen.storyboard */,
 				3D332C332343E938001238E0 /* Info.plist */,
+				3D332C552343EA28001238E0 /* Contacto.swift */,
+				3D332C572343EC3B001238E0 /* CeldaContactoController.swift */,
+				3D332C592343F741001238E0 /* EditarContactoController.swift */,
 			);
 			path = informacion;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D332C582343EC3B001238E0 /* CeldaContactoController.swift in Sources */,
 				3D332C2A2343E937001238E0 /* ViewController.swift in Sources */,
 				3D332C282343E937001238E0 /* AppDelegate.swift in Sources */,
+				3D332C562343EA28001238E0 /* Contacto.swift in Sources */,
+				3D332C5A2343F741001238E0 /* EditarContactoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
