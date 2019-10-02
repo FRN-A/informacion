@@ -47,7 +47,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if segue.identifier == "goToEditar"{
             let destino = segue.destination as? EditarContactoController
             destino?.contacto = contactos[TVContactos.indexPathForSelectedRow!.row]
+            destino?.callbackActuaizarTabla = recargarTabla
         }
+    }
+    
+    func recargarTabla(){
+        TVContactos.reloadData()
     }
 
 }

@@ -112,7 +112,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="069-lk-Uxv">
-                                <rect key="frame" x="338" y="225" width="56" height="30"/>
+                                <rect key="frame" x="325" y="225" width="69" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="dw0-jw-NLP"/>
                                 </constraints>
@@ -126,13 +126,13 @@
                         <constraints>
                             <constraint firstItem="D3S-Y2-NSD" firstAttribute="top" secondItem="eBB-sN-f5i" secondAttribute="top" constant="39" id="3JX-Qw-vpT"/>
                             <constraint firstItem="eBB-sN-f5i" firstAttribute="trailing" secondItem="vS3-IV-3YK" secondAttribute="trailing" constant="20" id="G0l-AN-7j2"/>
+                            <constraint firstItem="069-lk-Uxv" firstAttribute="leading" secondItem="eBB-sN-f5i" secondAttribute="leading" constant="325" id="KyB-XS-dKz"/>
                             <constraint firstItem="D3S-Y2-NSD" firstAttribute="leading" secondItem="eBB-sN-f5i" secondAttribute="leading" constant="20" id="Tnf-ix-Tsg"/>
                             <constraint firstItem="eBB-sN-f5i" firstAttribute="bottom" secondItem="069-lk-Uxv" secondAttribute="bottom" constant="607" id="aD6-bl-hb1"/>
                             <constraint firstItem="eBB-sN-f5i" firstAttribute="trailing" secondItem="D3S-Y2-NSD" secondAttribute="trailing" constant="20" id="dPo-bS-sV9"/>
                             <constraint firstItem="vS3-IV-3YK" firstAttribute="leading" secondItem="eBB-sN-f5i" secondAttribute="leading" constant="20" id="jzA-t2-oHx"/>
                             <constraint firstItem="069-lk-Uxv" firstAttribute="top" secondItem="vS3-IV-3YK" secondAttribute="bottom" constant="20" id="qrk-yC-yM1"/>
                             <constraint firstItem="eBB-sN-f5i" firstAttribute="trailing" secondItem="069-lk-Uxv" secondAttribute="trailing" constant="20" id="xDf-yf-Pwt"/>
-                            <constraint firstItem="069-lk-Uxv" firstAttribute="leading" secondItem="eBB-sN-f5i" secondAttribute="leading" constant="338" id="xHc-te-tEf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eBB-sN-f5i"/>
                     </view>
