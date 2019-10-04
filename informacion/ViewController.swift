@@ -48,6 +48,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let destino = segue.destination as? EditarContactoController
             destino?.contacto = contactos[TVContactos.indexPathForSelectedRow!.row]
             destino?.callbackActuaizarTabla = recargarTabla
+        } else if segue.identifier == "goToAdd"{
+            let destino = segue.destination as? EditarContactoController
+            contactos.append(Contacto(nombre: "", telefono: "", direccion: "", correo: "", foto: "foto4"))
+            destino?.contacto = contactos[contactos.count-1]
+            destino?.callbackActuaizarTabla = recargarTabla
         }
     }
     
@@ -55,5 +60,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         TVContactos.reloadData()
     }
 
+    @IBAction func doTapAgregar(_ sender: Any) {
+        contactos.append(Contacto(nombre: "Felipe", telefono: "4521302147", direccion: "calle 5 #5", correo: "felipe@algo.com", foto: "foto4"))
+        TVContactos.reloadData()
+    }
 }
 
